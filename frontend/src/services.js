@@ -2,7 +2,7 @@ import axios from "axios";
 
 // A URL base do seu backend, que pode ser configurada via variável de ambiente ou diretamente.
 // Lembre-se de atualizar esta URL se o ngrok mudar.
-const BASE_URL = process.env.REACT_APP_API_BASE_URL || "chat1-dg7mmyo5u-levymarcos-projects.vercel.app";
+const BASE_URL = process.env.REACT_APP_API_BASE_URL || "https://43f8-2804-14c-9d83-83e7-00-10b4.ngrok-free.app";
 
 // Função para salvar o fluxo
 export const saveFlow = async (flowData) => {
